@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace patronesComportamiento.Interfaces
 {
-    public interface IUserObserver
+    public interface IObserver
     {
-        void Update(Dollar dollar);
+        void Update();
     }
 }
